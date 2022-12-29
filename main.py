@@ -54,12 +54,16 @@ MORSE_GRAPH = N(
                 "r",
                 dot=N("l"),
                 dash=N(
+                    "æ",
                     dot=N("+"),
                 )
             ),
             dash=N(
                 "w",
-                dot=N("p"),
+                dot=N(
+                    "p",
+                    dash=N("å")
+                ),
                 dash=N(
                     "j",
                     dash=N("1"),
@@ -102,6 +106,7 @@ MORSE_GRAPH = N(
             dash=N(
                 "o",
                 dot=N(
+                    "ø",
                     dot=N("8"),
                 ),
                 dash=N(
